@@ -12,7 +12,7 @@ class Languages extends React.Component {
           <ul className="languages-list">
             {this.props.languages.map((language) => {
               return (
-                <li>
+                <li key={this.props.languages.indexOf(language)}>
                   <p>{language}</p>
                   <span
                     className={

@@ -49,6 +49,12 @@ main {
 }
 
 @media (min-width: 650px) {
+  .media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    width: 100%;
+  }
   .main--introduction-section {
     margin: 0 auto;
     font-size: 1.8rem;
