@@ -1,0 +1,143 @@
+.main--language-section {
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  padding: 15px;
+}
+
+.main--introduction-section {
+  margin: 0 auto;
+}
+
+.main--language-section .language-section h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: blanchedalmond;
+  margin-bottom: 10px;
+}
+.main--language-section .languages-list {
+  background-color: #272626d9;
+  color: blanchedalmond;
+  padding: 5px;
+  border-radius: 4px;
+  list-style: none;
+}
+.main--language-section .languages-list li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+  background-color: #1f1f1f;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  height: 30px;
+}
+.main--language-section .languages-list li p {
+  font-size: 1.7rem;
+  height: 90%;
+  padding: 8px;
+}
+.Python-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/python-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Cplusplus-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/C++_Logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.C-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/c-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Web-logo {
+  width: 55px;
+  height: 25px;
+  background-image: url("../img/web-programation.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Java-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/java-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.PHP-logo {
+  width: 40px;
+  height: 20px;
+  background-image: url("../img/php-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 650px) {
+  .main--language-section,
+  .main--tools-section {
+    width: 49.5%;
+    min-width: 320px;
+    padding: 15px;
+  }
+  .main--introduction-section .introduction-container h3,
+  .main--language-section .language-section h3,
+  .main--tools-section .tools-section h3,
+  .main--skills-section .skills-section h3,
+  .projects-title {
+    font-size: 3.7rem;
+    margin-bottom: 13px;
+  }
+  .main--introduction-section .introduction-list li,
+  .project-title {
+    margin-bottom: 14px;
+    font-size: 2.7rem;
+  }
+  .main--language-section .languages-list li,
+  .main--tools-section .tools-list li {
+    margin-bottom: 10px;
+    margin-right: 1px;
+    height: 60px;
+  }
+  .main--language-section .languages-list li p,
+  .main--tools-section .tools-list li p {
+    font-size: 2.7rem;
+  }
+  .Python-logo {
+    width: 35px;
+    height: 35px;
+  }
+  .Cplusplus-logo {
+    width: 33px;
+    height: 33px;
+  }
+  .C-logo {
+    width: 42px;
+    height: 42px;
+  }
+  .Web-logo {
+    width: 60px;
+    height: 37px;
+  }
+  .Java-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .PHP-logo {
+    width: 40px;
+    height: 23px;
+  }
+}

@@ -1,0 +1,85 @@
+.main--tools-section {
+  text-align: center;
+  width: 100%;
+  min-width: 320px;
+  padding: 15px;
+}
+.main--tools-section .tools-section h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: blanchedalmond;
+  margin-bottom: 10px;
+}
+.main--tools-section .tools-list {
+  background-color: #272626d9;
+  color: blanchedalmond;
+  padding: 5px;
+  border-radius: 4px;
+  list-style: none;
+}
+.main--tools-section .tools-list li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 49%;
+  background-color: #1f1f1f;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  height: 30px;
+}
+.main--tools-section .tools-list li p {
+  font-size: 1.7rem;
+  height: 90%;
+  padding: 8px;
+}
+
+.github-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/github.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gnuplot-logo {
+  width: 30px;
+  height: 20px;
+  background-image: url("../img/gnuplot_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.codestream-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/codestream-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mysql-logo {
+  width: 40px;
+  height: 20px;
+  background-image: url("../img/mysql-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.react-logo {
+  width: 26px;
+  height: 23px;
+  background-image: url("../img/react_logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.redux-logo {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/redux-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
