@@ -2,6 +2,8 @@ import Header from "./Components/Header";
 import Projects from "./Components/Projects";
 import Languages from "./Components/Languages";
 import Tools from "./Components/Tools";
+import Skills from "./Components/Skills";
+
 import "./App.css";
 
 function App() {
@@ -42,6 +44,19 @@ function App() {
             ]}
           />
         </div>
+        <Skills
+          skills={[
+            "Work in team",
+            "Creativity",
+            "Enthusiasm",
+            "Resilience",
+            "English B2",
+            "Analytical",
+            "Assertiveness",
+            "Comunication",
+            "French A2",
+          ]}
+        />
       </main>
     </div>
   );

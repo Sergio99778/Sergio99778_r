@@ -40,7 +40,7 @@
 .Python-logo {
   width: 20px;
   height: 20px;
-  background-image: url("../img/python-logo.png");
+  background-image: url("../img/Languages/python-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -48,7 +48,7 @@
 .Cplusplus-logo {
   width: 20px;
   height: 20px;
-  background-image: url("../img/C++_Logo.svg");
+  background-image: url("../img/Languages/C++_Logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -56,7 +56,7 @@
 .C-logo {
   width: 20px;
   height: 20px;
-  background-image: url("../img/c-logo.png");
+  background-image: url("../img/Languages/c-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,7 +64,7 @@
 .Web-logo {
   width: 55px;
   height: 25px;
-  background-image: url("../img/web-programation.png");
+  background-image: url("../img/Languages/web-programation.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -72,7 +72,7 @@
 .Java-logo {
   width: 20px;
   height: 20px;
-  background-image: url("../img/java-logo.png");
+  background-image: url("../img/Languages/java-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@
 .PHP-logo {
   width: 40px;
   height: 20px;
-  background-image: url("../img/php-logo.png");
+  background-image: url("../img/Languages/php-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
