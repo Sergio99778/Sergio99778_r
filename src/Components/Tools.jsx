@@ -13,7 +13,7 @@ class Tools extends React.Component {
               return (
                 <li>
                   <p>{tool}</p>
-                  <span>{`${tool.toLowerCase()}-logo`}</span>
+                  <span className={`${tool.toLowerCase()}-logo`}></span>
                 </li>
               );
             })}

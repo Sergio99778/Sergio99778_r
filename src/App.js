@@ -1,7 +1,7 @@
 import Header from "./Components/Header";
 import Projects from "./Components/Projects";
 import Languages from "./Components/Languages";
-
+import Tools from "./Components/Tools";
 import "./App.css";
 
 function App() {
@@ -31,6 +31,16 @@ function App() {
         <Projects></Projects>
         <div className="media">
           <Languages languages={["Python", "C++", "C", "Web", "Java", "PHP"]} />
+          <Tools
+            tools={[
+              "Github",
+              "Gnuplot",
+              "Codestream",
+              "MySQL",
+              "React",
+              "Redux",
+            ]}
+          />
         </div>
       </main>
     </div>
