@@ -5,13 +5,13 @@ import "./Tools.css";
 class Tools extends React.Component {
   render() {
     return (
-      <section class="main--tools-section">
-        <div class="tools-section">
+      <section className="main--tools-section">
+        <div className="tools-section">
           <h3>Tools</h3>
-          <ul class="tools-list">
+          <ul className="tools-list">
             {this.props.tools.map((tool) => {
               return (
-                <li>
+                <li key={this.props.tools.indexOf(tool)}>
                   <p>{tool}</p>
                   <span className={`${tool.toLowerCase()}-logo`}></span>
                 </li>
