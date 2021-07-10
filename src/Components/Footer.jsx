@@ -11,7 +11,9 @@ class Footer extends React.Component {
           <div className="redes-container">
             {this.props.redes.map((social) => {
               return (
-                <a className={`fa fa-${social.name}`} href={social.href}></a>
+                <a className={`fa fa-${social.name}`} href={social.href}>
+                  {" "}
+                </a>
               );
             })}
           </div>
