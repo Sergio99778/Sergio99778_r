@@ -44,19 +44,7 @@ function App() {
             ]}
           />
         </div>
-        <Skills
-          skills={[
-            "Work in team",
-            "Creativity",
-            "Enthusiasm",
-            "Resilience",
-            "English B2",
-            "Analytical",
-            "Assertiveness",
-            "Comunication",
-            "French A2",
-          ]}
-        />
+        <Skills />
       </main>
     </div>
   );
