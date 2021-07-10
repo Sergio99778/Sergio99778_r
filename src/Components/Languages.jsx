@@ -17,8 +17,8 @@ class Languages extends React.Component {
                   <span
                     className={
                       res.test(language)
-                        ? `${language.replace(/\+/g, "plus")}-logo`
-                        : `${language}-logo`
+                        ? `logo ${language.replace(/\+/g, "plus")}-logo`
+                        : `logo ${language}-logo`
                     }
                   ></span>
                 </li>

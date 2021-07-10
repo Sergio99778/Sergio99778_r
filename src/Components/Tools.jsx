@@ -13,7 +13,7 @@ class Tools extends React.Component {
               return (
                 <li key={this.props.tools.indexOf(tool)}>
                   <p>{tool}</p>
-                  <span className={`${tool.toLowerCase()}-logo`}></span>
+                  <span className={`logo ${tool.toLowerCase()}-logo`}></span>
                 </li>
               );
             })}
