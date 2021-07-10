@@ -49,7 +49,7 @@ class Projects extends React.Component {
             return (
               <div key={project.id} className="project">
                 <h3 className="project-title">⭐ {project.name} ⭐</h3>
-                <a href={project.url}>
+                <a href={project.url} target="_blank">
                   <img
                     className="project--image"
                     src={project.img}
