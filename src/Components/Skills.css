@@ -56,13 +56,13 @@
   transform: scale(1);
   transition: transform 0.3s;
 }
-.skills-list li {
-  margin: 0 10px;
-}
 
 @media (min-width: 650px) {
   .main--skills-section .skills-section h3 {
     font-size: 3.7rem;
     margin-bottom: 13px;
+  }
+  .skills-list li {
+    margin: 0 10px;
   }
 }
