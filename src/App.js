@@ -3,6 +3,7 @@ import Projects from "./Components/Projects";
 import Languages from "./Components/Languages";
 import Tools from "./Components/Tools";
 import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
 
 import "./App.css";
 
@@ -46,6 +47,26 @@ function App() {
         </div>
         <Skills />
       </main>
+      <Footer
+        redes={[
+          {
+            name: "facebook",
+            href: "https://www.facebook.com/sergio1729/",
+          },
+          {
+            name: "twitter",
+            href: "https://twitter.com/SergioDeLucio2",
+          },
+          {
+            name: "linkedin",
+            href: "https://www.linkedin.com/in/sergio-de-lucio/",
+          },
+          {
+            name: "github",
+            href: "https://github.com/Sergio99778/",
+          },
+        ]}
+      />
     </div>
   );
 }
