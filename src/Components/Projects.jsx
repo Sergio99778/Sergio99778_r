@@ -48,7 +48,7 @@ class Projects extends React.Component {
           {this.state.data.map((project) => {
             return (
               <div key={project.id} className="project">
-                <h3 className="project-title">{project.name}</h3>
+                <h3 className="project-title">⭐ {project.name} ⭐</h3>
                 <a href={project.url}>
                   <img
                     className="project--image"

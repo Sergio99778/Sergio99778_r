@@ -37,6 +37,7 @@ footer {
   font-family: "Roboto Mono", monospace;
   color: white;
   text-decoration: none;
+  font-size: 2.6rem;
 }
 header .header--submenu {
   margin-top: 15px;
@@ -46,6 +47,9 @@ header .header--submenu {
   font-weight: bold;
   margin: 0 auto;
   padding-top: 14px;
+}
+header .header--submenu {
+  font-size: 1.6rem;
 }
 header .header--submenu p {
   display: inline-block;
@@ -84,36 +88,11 @@ main {
   width: 100%;
   min-width: 320px;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-github {
-  background-color: #757575;
-  color: white;
-}
-
 @media (min-width: 650px) {
-  header {
+  #welcome-section h1 {
+    font-size: 5rem;
+  }
+  .header--submenu {
     font-size: 2.7rem;
   }
 }
