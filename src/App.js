@@ -7,14 +7,18 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
+const titles = [
+  { name: 'Projects', to: '/projects' },
+  { name: 'Objectives', to: '/objetives' },
+  { name: 'About me', to: '/about_me' },
+  { name: 'Blog', to: '/blog' },
+];
+
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header
-          titles={['Projects', 'Objectives', 'About me']}
-          data='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]'
-        />
+        <Header titles={titles} data='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]' />
         <main>
           <Switch>
             <Route exact path="/" component={Main} />
