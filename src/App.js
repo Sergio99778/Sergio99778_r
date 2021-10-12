@@ -1,9 +1,17 @@
+//Dependences
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+//Components
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+
+//Pages
 import Main from './pages/Main';
 import NotFound from './pages/NotFound';
-
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Projects from './pages/Projects';
+import Objectives from './pages/Objectives';
+import AboutMe from './pages/AboutMe';
+import Blog from './pages/Blog';
 
 import './App.css';
 
@@ -22,6 +30,10 @@ function App() {
         <main>
           <Switch>
             <Route exact path="/" component={Main} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/objetives" component={Objectives} />
+            <Route exact path="/about_me" component={AboutMe} />
+            <Route exact path="/blog" component={Blog} />
             <Route component={NotFound} />
           </Switch>
         </main>
