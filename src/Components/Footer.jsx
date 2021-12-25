@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "./Footer.css";
+import './Footer.css';
 
 class Footer extends React.Component {
   render() {
@@ -9,10 +9,10 @@ class Footer extends React.Component {
         <section className="footer--redes-section">
           <p>Contact with me :</p>
           <div className="redes-container">
-            {this.props.redes.map((social) => {
+            {this.props.redes.map((social, i) => {
               return (
-                <a className={`fa fa-${social.name}`} href={social.href}>
-                  {" "}
+                <a id={i} className={`fa fa-${social.name}`} href={social.href}>
+                  {' '}
                 </a>
               );
             })}
