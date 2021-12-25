@@ -64,12 +64,15 @@ class Header extends React.Component {
       css.innerHTML = '.typewrite > .wrap { border-right: 0.08em solid #fff}';
       document.body.appendChild(css);
     };
+
     return (
       <header id="welcome-section">
         <h1 className="header--container-typewriter">
-          <a href="/" className="typewrite" data-period="2000" data-type={this.props.data}>
-            <span className="wrap"></span>
-          </a>
+          <Link className="typewriter--text" to="/">
+            <a href="/" className="typewrite" data-period="2000" data-type={this.props.data}>
+              <span className="wrap"></span>
+            </a>
+          </Link>
         </h1>
         <nav className="header--submenu" id="navbar">
           {this.props.titles.map((title, i) => (
