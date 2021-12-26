@@ -1,73 +1,64 @@
-import Header from "./Components/Header";
-import Projects from "./Components/Projects";
-import Languages from "./Components/Languages";
-import Tools from "./Components/Tools";
-import Skills from "./Components/Skills";
-import Footer from "./Components/Footer";
+//Dependences
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import "./App.css";
+//Components
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+
+//Pages
+import Main from './pages/Main';
+import NotFound from './pages/NotFound';
+import Projects from './pages/Projects';
+import Objectives from './pages/Objectives';
+import AboutMe from './pages/AboutMe';
+import Blog from './pages/Blog';
+
+import './App.css';
+
+const titles = [
+  { name: 'Projects', to: '/projects' },
+  { name: 'Objectives', to: '/objetives' },
+  { name: 'About me', to: '/about_me' },
+  { name: 'Blog', to: '/blog' },
+];
 
 function App() {
   return (
-    <div className="App">
-      <Header
-        titles={["Projects", "Objectives", "About me"]}
-        data='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]'
-      />
-      <main>
-        <section className="main--introduction-section">
-          <div className="introduction-container">
-            <h3>Welcome to my website ❤️</h3>
-            <ul className="introduction-list">
-              <li>
-                <span>✨</span> I'm an appasionate programmer who wants to make
-                a better world by tipping the keys of a laptop and developing
-                new software wich will become essential in the comunity.
-              </li>
-              <li>
-                <span>✨</span> I love to make code and work with teams in
-                challenging projects
-              </li>
-            </ul>
-          </div>
-        </section>
-        <Projects></Projects>
-        <div className="media">
-          <Languages languages={["Python", "C++", "C", "Web", "Java", "PHP"]} />
-          <Tools
-            tools={[
-              "Github",
-              "Gnuplot",
-              "Codestream",
-              "MySQL",
-              "React",
-              "Redux",
-            ]}
-          />
-        </div>
-        <Skills />
-      </main>
-      <Footer
-        redes={[
-          {
-            name: "facebook",
-            href: "https://www.facebook.com/sergio1729/",
-          },
-          {
-            name: "twitter",
-            href: "https://twitter.com/SergioDeLucio2",
-          },
-          {
-            name: "linkedin",
-            href: "https://www.linkedin.com/in/sergio-de-lucio/",
-          },
-          {
-            name: "github",
-            href: "https://github.com/Sergio99778/",
-          },
-        ]}
-      />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header titles={titles} data='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]' />
+        <main>
+          <Switch>
+            <Route exact path="/" component={Main} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/objetives" component={Objectives} />
+            <Route exact path="/about_me" component={AboutMe} />
+            <Route exact path="/blog" component={Blog} />
+            <Route component={NotFound} />
+          </Switch>
+        </main>
+        <Footer
+          redes={[
+            {
+              name: 'facebook',
+              href: 'https://www.facebook.com/sergio1729/',
+            },
+            {
+              name: 'twitter',
+              href: 'https://twitter.com/SergioDeLucio2',
+            },
+            {
+              name: 'linkedin',
+              href: 'https://www.linkedin.com/in/sergio-de-lucio/',
+            },
+            {
+              name: 'github',
+              href: 'https://github.com/Sergio99778/',
+            },
+          ]}
+        />
+      </div>
+    </BrowserRouter>
   );
 }
 
