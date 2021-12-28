@@ -24,7 +24,7 @@ const titles = [
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/React">
       <div className="App">
         <Header titles={titles} data='[ "Creating software.", "Creating the future.", "I Love to code.", "I Love to Develop." ]' />
         <main>
