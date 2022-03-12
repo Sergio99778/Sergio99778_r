@@ -45,9 +45,9 @@ function Main() {
           <h3>Welcome to my website ❤️</h3>
           <ul className="introduction-list">
             <li>
-              <span>✨</span> I'm an appassionate programmer who wants to make a
+              <span>✨</span> I'm an appasionate programmer who wants to make a
               better world by tipping the keys of a laptop and developing new
-              software which will become essential in the community.
+              software wich will become essential in the comunity.
             </li>
             <li>
               <span>✨</span> I love to make code and work with teams on
