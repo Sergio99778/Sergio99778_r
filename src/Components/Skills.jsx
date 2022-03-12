@@ -47,7 +47,7 @@ class Skills extends React.Component {
           img: assertiveness,
         },
         {
-          name: "Comunication",
+          name: "Communication",
           img: comunication,
         },
         {
