@@ -60,7 +60,20 @@ function Main() {
       <div className="media">
         <Languages languages={["Python", "C++", "C", "Web", "Java", "PHP"]} />
         <Tools
-          tools={["Github", "Gnuplot", "Codestream", "MySQL", "React", "Redux"]}
+          tools={[
+            "Github",
+            "Gnuplot",
+            "Codestream",
+            "MySQL",
+            "React",
+            "Redux",
+            "GraphQL",
+            "MongoDB",
+            "PostgreSQL",
+            "Express",
+            "Firebase",
+            "TypeScript",
+          ]}
         />
       </div>
       <Skills />
