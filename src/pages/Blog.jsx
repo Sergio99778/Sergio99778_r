@@ -4,13 +4,13 @@ import Projects from "../Components/Projects";
 const data = [
   {
     name: "Clandestino",
-    url: "https://github.com/Sergio99778/clandestino",
+    url: "https://sergio99778.github.io/clandestino/",
     img: "https://i.ibb.co/qxXfw6y/clandestino.jpg",
     desc: "Clandestino project",
   },
   {
     name: "Places",
-    url: "https://github.com/Sergio99778/places-react",
+    url: "https://loving-kowalevski-c361d3.netlify.app/",
     img: "https://i.ibb.co/jMxDvtb/places.jpg",
     desc: "Places project",
   },
@@ -40,7 +40,7 @@ const data = [
   },
   {
     name: "Landing Page",
-    url: "https://github.com/Sergio99778/places-react",
+    url: "https://github.com/Sergio99778/responsive-freeCodeCamp",
     img: "https://i.ibb.co/86175JY/landing-page.jpg",
     desc: "Landing project",
   },
