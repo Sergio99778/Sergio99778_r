@@ -84,48 +84,48 @@
 }
 
 .graphql-logo {
-  width: 33px;
-  height: 27px;
+  width: 20px;
+  height: 18px;
   background-image: url("../img/Tools/graphql.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .mongodb-logo {
-  width: 40px;
-  height: 40px;
+  width: 23px;
+  height: 23px;
   background-image: url("../img/Tools/mongodb.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .postgresql-logo {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   background-image: url("../img/Tools/postgresql.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .express-logo {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-image: url("../img/Tools/express.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .firebase-logo {
-  width: 40px;
-  height: 40px;
+  width: 23px;
+  height: 23px;
   background-image: url("../img/Tools/firebase.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .typescript-logo {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   background-image: url("../img/Tools/typescript.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -180,5 +180,29 @@
   .redux-logo {
     width: 36px;
     height: 36px;
+  }
+  .graphql-logo {
+    width: 33px;
+    height: 27px;
+  }
+  .mongodb-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .postgresql-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .express-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .firebase-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .typescript-logo {
+    width: 30px;
+    height: 30px;
   }
 }
